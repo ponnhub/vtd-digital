@@ -1,0 +1,20 @@
+{
+  "name": "line-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "proxy": "https://api.vtd-thai.or.th",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^7.4.0",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "line-notify-nodejs": "^1.0.0",
+    "os": "^0.1.2"
+  }
+}
